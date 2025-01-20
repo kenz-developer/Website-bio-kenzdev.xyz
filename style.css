@@ -1,0 +1,174 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #111;
+  color: #fff;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Fullscreen background for particles */
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+}
+
+/* Parallax section */
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header {
+  padding: 20px;
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+header .logo h1 {
+  font-size: 3rem;
+  color: #00FF99;
+  margin-bottom: 10px;
+}
+
+header .logo p {
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+/* Bio Section with Parallax Effect */
+.bio-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.bio-image {
+  margin-right: 30px;
+}
+
+.bio-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #00FF99;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+}
+
+.bio-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.bio-content h2 {
+  font-size: 2.5rem;
+  color: #00FF99;
+  margin-bottom: 20px;
+}
+
+.bio-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.bio-details {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.bio-details li {
+  font-size: 1.1rem;
+}
+
+.bio-details li strong {
+  color: #00FF99;
+}
+
+.button1 a {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button1 {
+  text-align: center;
+  background: transparent #A6A9BD;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #00FF99;
+  padding: 5px;
+  width: 100;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.footer p {
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin: 0 15px;
+  font-size: 1.2rem;
+  color: #00FF99;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #00FFFF;
+}
+
+/* Parallax Scrolling Effect */
+.bio-section {
+  transform: translateZ(0);
+  perspective: 1px;
+}
+
+.bio-image {
+  transform: translateZ(-1px) scale(2);
+}
+
+@media (max-width: 768px) {
+  .bio-section {
+    flex-direction: column;
+  }
+
+  .bio-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

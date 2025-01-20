@@ -1,0 +1,50 @@
+/* Docs */
+* {
+  background: #000000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.docs h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.docs {
+  text-align: center;
+  background: transparent #A6A9BD;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #00FF99;
+  padding: 2px;
+  width: 100;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.docs1 {
+  text-align: center;
+  background: transparent #A6A9BD;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #00FF99;
+  padding: 10px;
+  width: 100;
+  margin: 30px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+a {
+  background: transparent;
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 20px;
+}
+
+h3 {
+  color: #fff;
+  text-align: center;
+}

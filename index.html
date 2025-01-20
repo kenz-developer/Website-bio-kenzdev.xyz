@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bio - KenzDev</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Parallax Section with Bio Content -->
+    <div class="content">
+        <header>
+            <div class="logo">
+                <h1>KENZ DEVELOPER</h1>
+                <p>Website Hasil Gabut🦆💨</p>
+            </div>
+        </header>
+
+        <!-- Bio Section with Parallax Effect -->
+        <section class="bio-section">
+            <div class="bio-content">
+                <h2>Kenz Developer!</h2>
+                <p>Aku KenzDev! Website Ini Dibuat Menggunakan HTML CSS JAVASCRIPT.</p>
+                <section class="button1">
+                  <div class="button1">
+                    <a href="document.html">DOCUMENT</a>
+                  </div>
+                </section>
+                <ul class="bio-details">
+                    <li><strong>Age:</strong> 15</li>
+                    <li><strong>Location:</strong> AG Style</li>
+                    <li><strong>Email:</strong> alzzoffchosting@gmail.com</li>
+                    <li><strong>Skills:</strong> HTML, CSS, JavaScript, PHP</li>
+                    <li><strong>Hobbi:</strong> Coding, Gaming, Designer</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="social-links">
+                <a href="https://github.com/kenz-developer" target="_blank">GitHub</a>
+                <a href="https://wa.me/6288215523477" target="_blank">Whatsapp</a>
+            </div>
+            <p>&copy; 2025 Kenz Developer. All rights reserved.</p>
+        </section>
+    </div>
+
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: {
+                    value: 80,
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: "#00FF99"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0,
+                        color: "#000000"
+                    },
+                    polygon: {
+                        nb_sides: 5
+                    },
+                    image: {
+                        src: "",
+                        width: 100,
+                        height: 100
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 1,
+                        opacity_min: 0,
+                        sync: false
+                    }
+                },
+                size: {
+                    value: 5,
+                    random: true,
+                    anim: {
+                        enable: true,
+                        speed: 40,
+                        size_min: 0.1,
+                        sync: false
+                    }
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#00FF99",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 6,
+                    direction: "none",
+                    random: true,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "repulse"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    resize: true
+                }
+            },
+            retina_detect: true
+        });
+    </script>
+</body>
+</html>
